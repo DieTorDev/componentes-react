@@ -12,7 +12,7 @@ const App = () => {
 	return (
 		<>
 			<GlobalStyles />
-			<SayHello name='Diego' />
+			<SayHello name={'Diego'} />
 			<CalculateSquareArea side={10} />
 			<CalculateTriangleArea base={10} height={10} />
 			<CalculateCircleArea radius={10} />
